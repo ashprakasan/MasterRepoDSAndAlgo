@@ -43,6 +43,7 @@ public class Main {
                 end = i;
             }
         }
+        System.out.println("Maximum sum is "+maxSoFar);
         List<Integer> res = new ArrayList<Integer>();
         for(int i=start;i<=end;i++){
             res.add(arr[i]);
